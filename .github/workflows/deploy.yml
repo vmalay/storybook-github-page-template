@@ -1,4 +1,4 @@
-name: Build and Publish storybook to GitHub Pages
+name: Build and Publish Storybook to GitHub Pages
 
 on:
   push:
@@ -14,6 +14,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: bitovi/github-actions-storybook-to-github-pages@v1.0.2
+    - id: build-publish
+      uses: bitovi/github-actions-storybook-to-github-pages@v1.0.2
       with:
         path: build/storybook-static
