@@ -1,4 +1,4 @@
-# Deploy Storybook to GitHub Pages - Template
+# Storybook GitHub Pages - Minimalist Example
 
 
 This template ships a very simple React and Storybook template with deployment for GitHub Page. You access to this repository Storybook GitHub Page here : https://vmalay.github.io/storybook-github-pages-example/storybook/. 
@@ -15,7 +15,8 @@ It's using the "Deploy Storybook to GitHub Pages" GitHub Action: https://github.
 ## Access to your GitHub Page
 - GitHub Action for the deploy should be successful. You can check it in the project repo > Actions.  
 - In the project repo in GitHub, go to Settings > Pages.
-- You'll see: Your site is live at https://username.github.io/repository.
+- You'll see: Your site is live at https://username.github.io/repository/storybook/.
+- This configuration allows deploying multiple GitHub Pages, you just have to use different folders in `build/`.
 
 ## Start in local
 - Run `npm run build-storybook`.
