@@ -1,7 +1,7 @@
 # Deploy Storybook to GitHub Pages - Template
 
 
-This template ships a very simple React and Storybook template with deployment for GitHub Page. You access to this repository Storybook GitHub Page here : https://vmalay.github.io/storybook-github-page-template/. 
+This template ships a very simple React and Storybook template with deployment for GitHub Page. You access to this repository Storybook GitHub Page here : https://vmalay.github.io/storybook-github-pages-example/storybook/. 
 
 It's using the "Deploy Storybook to GitHub Pages" GitHub Action: https://github.com/marketplace/actions/deploy-storybook-to-github-pages
 

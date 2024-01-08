@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build-storybook": "storybook build --output-dir build/storybook-static"
+    "build-storybook": "storybook build --output-dir build/storybook"
   },
   "dependencies": {
     "react": "^18.2.0"
