@@ -1,0 +1,15 @@
+.storybook-button {
+  color: white;
+  padding: 12px 24px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+}
+
+.storybook-button-primary {
+  background-color: #1eaAfd;
+}
+
+.storybook-button-secondary {
+  background-color: red;
+}

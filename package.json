@@ -1,0 +1,21 @@
+{
+  "name": "storybook-github-page",
+  "version": "0.1.0",
+  "description": "Simple template to test publishing Storybook on Github Page",
+  "author": " V.Malay",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build-storybook": "storybook build --output-dir build/storybook-static"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@storybook/react": "^7.6.6",
+    "@storybook/react-webpack5": "^7.6.6",
+    "@types/react": "^18.0.28",
+    "storybook": "^7.6.6"
+  }
+}
